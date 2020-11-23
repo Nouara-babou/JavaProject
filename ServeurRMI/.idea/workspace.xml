@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db88d79e-ca5d-4ab9-8b24-3509b93d1d88" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZwIDZAVIq6lGT4G9aPoD4eDBtb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nouara\IdeaProjects\untitled1\src\service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ServeurRMI">
+    <configuration name="Serveur (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serveur" />
+      <module name="ReseauSocial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Serveur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.Serveur" />
+      <module name="ReseauSocial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServeurRMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="service.ServeurRMI" />
+      <module name="ReseauSocial" />
+      <option name="PROGRAM_PARAMETERS" value="file://localhost:/C:\Users\Nouara\IdeaProjects\untitled1\src\reseauSocial.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServeurRMI1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServeurRMI1" />
+      <module name="ReseauSocial" />
+      <option name="PROGRAM_PARAMETERS" value="file:\\localhost\C:\Users\Nouara\IdeaProjects\untitled1\src\ReadOut" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServeurXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServeurXML" />
+      <module name="ReseauSocial" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Serveur" />
+      <item itemvalue="Application.Serveur (1)" />
+      <item itemvalue="Application.ServeurRMI" />
+      <item itemvalue="Application.ServeurRMI1" />
+      <item itemvalue="Application.ServeurXML" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServeurRMI" />
+        <item itemvalue="Application.ServeurRMI1" />
+        <item itemvalue="Application.ServeurXML" />
+        <item itemvalue="Application.Serveur (1)" />
+        <item itemvalue="Application.Serveur" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db88d79e-ca5d-4ab9-8b24-3509b93d1d88" name="Default Changelist" comment="" />
+      <created>1585743610561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585743610561</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585746319469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585746319469" />
+    <state x="180" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587082828433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="180" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587082828433" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1586634332703">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586634332703" />
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587116656457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="250" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1587116656457" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1587061930530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587061930530" />
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1587124308203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587124308203" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1587124308203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587124308203" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1587124308202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587124308202" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1587124308203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587124308203" />
+    <state width="661" height="223" key="GridCell.Tab.1.bottom" timestamp="1586732185853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586732185853" />
+    <state width="661" height="223" key="GridCell.Tab.1.center" timestamp="1586732185853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586732185853" />
+    <state width="661" height="223" key="GridCell.Tab.1.left" timestamp="1586732185852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586732185852" />
+    <state width="661" height="223" key="GridCell.Tab.1.right" timestamp="1586732185853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586732185853" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1587077669877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587077669877" />
+    <state x="65" y="0" key="new project wizard" timestamp="1587070092661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587070092661" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1586709044434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586709044434" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ServeurXML.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled1$Serveur.ic" NAME="Serveur Coverage Results" MODIFIED="1586637505704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

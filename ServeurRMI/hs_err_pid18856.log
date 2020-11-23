@@ -1,0 +1,167 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=18856, tid=0x0000000000006128
+#
+# JRE version:  (8.0_241-b07) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.241-b07 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002dd3000):  JavaThread "Unknown thread" [_thread_in_vm, id=24872, stack(0x0000000002ad0000,0x0000000002bd0000)]
+
+Stack: [0x0000000002ad0000,0x0000000002bd0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002dd3000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=24872, stack(0x0000000002ad0000,0x0000000002bd0000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x0000000081c00000, size: 2020 MB, Compressed Oops mode: 32-bit
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x0000000100000000
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x00000000d5f00000, 0x00000000d8980000, 0x0000000100000000)
+  eden space 33280K, 2% used [0x00000000d5f00000,0x00000000d5fa6670,0x00000000d7f80000)
+  from space 5120K, 0% used [0x00000000d8480000,0x00000000d8480000,0x00000000d8980000)
+  to   space 5120K, 0% used [0x00000000d7f80000,0x00000000d7f80000,0x00000000d8480000)
+ ParOldGen       total 87552K, used 0K [0x0000000081c00000, 0x0000000087180000, 0x00000000d5f00000)
+  object space 87552K, 0% used [0x0000000081c00000,0x0000000081c00000,0x0000000087180000)
+ Metaspace       used 776K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 76K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000012290000,0x0000000012690000] byte_map_base: 0x0000000011e82000
+
+Marking Bits: (ParMarkBitMap*) 0x000000006bb5be30
+ Begin Bits: [0x0000000013140000, 0x00000000150d0000)
+ End Bits:   [0x00000000150d0000, 0x0000000017060000)
+
+Polling page: 0x0000000001300000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002ed0000, 0x0000000003140000, 0x0000000011ed0000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.053 loading class java/lang/Short
+Event: 0.053 loading class java/lang/Short done
+Event: 0.053 loading class java/lang/Integer
+Event: 0.053 loading class java/lang/Integer done
+Event: 0.053 loading class java/lang/Long
+Event: 0.054 loading class java/lang/Long done
+Event: 0.054 loading class java/lang/NullPointerException
+Event: 0.054 loading class java/lang/NullPointerException done
+Event: 0.054 loading class java/lang/ArithmeticException
+Event: 0.054 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff784bd0000 - 0x00007ff784c07000 	C:\Program Files\Java\jdk1.8.0_241\bin\java.exe
+0x00007ffc2b4c0000 - 0x00007ffc2b6b0000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffbf7440000 - 0x00007ffbf7455000 	C:\Program Files\AVAST Software\Avast\aswhook.dll
+0x00007ffc2ae80000 - 0x00007ffc2af32000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffc28fe0000 - 0x00007ffc29283000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffc2b310000 - 0x00007ffc2b3b3000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffc29640000 - 0x00007ffc296de000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffc2b270000 - 0x00007ffc2b307000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffc2af40000 - 0x00007ffc2b060000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffc2a6b0000 - 0x00007ffc2a844000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffc28500000 - 0x00007ffc28521000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffc2adf0000 - 0x00007ffc2ae16000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffc29380000 - 0x00007ffc29514000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffc29290000 - 0x00007ffc2932e000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffc28680000 - 0x00007ffc2877a000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffc16890000 - 0x00007ffc16b15000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.778_none_e6c6b761130d4fb8\COMCTL32.dll
+0x00007ffc2a850000 - 0x00007ffc2ab86000 	C:\WINDOWS\System32\combase.dll
+0x00007ffc28f60000 - 0x00007ffc28fe0000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffc2ad30000 - 0x00007ffc2ad5e000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000006bbe0000 - 0x000000006bcb2000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\msvcr100.dll
+0x000000006b330000 - 0x000000006bbdc000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\server\jvm.dll
+0x00007ffc29fb0000 - 0x00007ffc29fb8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffc13540000 - 0x00007ffc13549000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffc2b0e0000 - 0x00007ffc2b14f000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffc102e0000 - 0x00007ffc10304000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffc24670000 - 0x00007ffc2467a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffc102b0000 - 0x00007ffc102dd000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffc29330000 - 0x00007ffc2937a000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffbedf60000 - 0x00007ffbedf6f000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\verify.dll
+0x00007ffba9960000 - 0x00007ffba9989000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\java.dll
+0x00007ffbf4cc0000 - 0x00007ffbf4ce3000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\instrument.dll
+0x00007ffbb8d30000 - 0x00007ffbb8d46000 	C:\Program Files\Java\jdk1.8.0_241\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -javaagent:C:\Users\Nouara\Desktop\IntelliJ IDEA Community Edition 2019.3.2\lib\idea_rt.jar=50063:C:\Users\Nouara\Desktop\IntelliJ IDEA Community Edition 2019.3.2\bin -Dfile.encoding=UTF-8 
+java_command: ServeurRMI1 file:\\localhost\C:\Users\Nouara\IdeaProjects\untitled1\src\ReadOut
+java_class_path (initial): C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Users\Nouara\IdeaProjects\untitled1\out\production\ReseauSocial;C:\Users\Nouara\Desktop\IntelliJ IDEA Community Edition 2019.3.2\lib\idea_rt.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_241
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Haskell\bin;C:\Users\Nouara\Desktop\8.6.3\lib\extralibs\bin;C:\Users\Nouara\Desktop\8.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Nouara\Desktop\8.6.3\mingw\bin;C:\Users\Nouara\AppData\Roaming\cabal\bin;C:\Users\Nouara\AppData\Roaming\local\bin;C:\Users\Nouara\AppData\Local\Microsoft\WindowsApps;C:\Users\Nouara\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\mvn\apache-maven-3.6.3\bin;
+USERNAME=Nouara
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 18362 (10.0.18362.778)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 142 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8273204k(1052664k free), swap 14070684k(5448k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.241-b07) for windows-amd64 JRE (1.8.0_241-b07), built on Dec 11 2019 10:21:40 by "rejava" with MS VC++ 10.0 (VS2010)
+
+time: Thu Apr 16 23:13:06 2020
+timezone: Paris, Madrid
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
